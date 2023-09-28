@@ -1,0 +1,9 @@
+POST http://localhost:3001/submitProfileA
+Content-Type: application/json
+
+{
+  "name":"rajesh",
+  "email":"raj@gmail.com",
+  "age":20,
+  "location":"hyderabad"
+}
