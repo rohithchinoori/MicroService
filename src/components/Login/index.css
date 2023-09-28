@@ -1,0 +1,39 @@
+.head {
+  font-family: 'Roboto';
+}
+.input-cont {
+  display: flex;
+  flex-direction: column;
+  margin: 6px;
+}
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: 5px 5px 5px rgb(235, 239, 240);
+  background-color: rgb(192, 212, 212);
+  padding: 20px;
+  border-radius: 8px;
+}
+.but {
+  background-color: rgb(0, 132, 255);
+  color: #ffff;
+  border-radius: 6px;
+  border-width: 0px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.head1 {
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.sp {
+  color: rgb(192, 115, 15);
+  font-size: 20px;
+}
+.p {
+  color: red;
+}
