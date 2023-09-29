@@ -17,6 +17,7 @@ class Login extends Component {
     event.preventDefault()
     const {email, age} = this.state
     const userDetails = {email, age}
+    /*Sending data to service A */
     const url = 'http://localhost:3001/submitProfileA'
     const options = {
       method: 'POST',
